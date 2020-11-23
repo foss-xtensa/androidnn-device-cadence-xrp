@@ -23,3 +23,4 @@ COMMON_LUNCH_CHOICES := \
 vendor_lkm_dir := device/cadence/xrp/lkm-5.4
 BOARD_VENDOR_KERNEL_MODULES := \
     $(vendor_lkm_dir)/xrp.ko \
+    $(vendor_lkm_dir)/xrp_hw_simple.ko \
